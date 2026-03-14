@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+    <waiver name="jgs.dteg_security_dfxagg waive everything" severity="DISABLED">
+		<description>jgs.dteg_security_dfxagg waive everything
+		</description>
+		<match path="*/subIP/jgs.dteg_security_dfxagg/src/rtl/dfxagg/*" message="*"/>
+	</waiver>
+    <waiver name="n3p/tech-release waive everything" severity="DISABLED">
+		<description>n3p/tech-release waive everything
+		</description>
+		<match path="/p/tech1/n3p/tech-release/*" message="*"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.iosf_sb_sbe/source/rtl/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.sbb_sbbv5/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.i3c_dwc/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.spi_dwc/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.spi_mst_dwc/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/pmsbrf/workspace/sideband_network/source/rtl/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.spi_slv_dwc/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/subIP/jgs.trng_dwc/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+</waivers>

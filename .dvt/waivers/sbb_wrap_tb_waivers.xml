@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/common_verif/sv/hl_axi/hl_axi_vip_functions.sv" message="UNDECLARED_IDENTIFIER: Identifier '*' is not a member of 'slave_cfg'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/h15a_psoc_verif/sv/psoc_cust_svt_axi_system_configuration.sv" message="UNDECLARED_IDENTIFIER: Identifier '*' is not a member of 'svt_axi_port_configuration'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/h15a_psoc_verif/tb/tests/*" message="UNDECLARED_IDENTIFIER: Identifier 'set_is_enabled' is not a member of 'signal_valid_rdata_when_rvalid_high_check' (type 'svt_amba_err_check_stats' is undeclared)"/>
+	</waiver>
+	<waiver name="NON_EXISTING_TYPE" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/" message="NON_EXISTING_TYPE: Non existing type 'uvm_*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/" message="SYSTEM_VERILOG_2012: Undefined macro name: `uvm_*"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/" message="UNDECLARED_IDENTIFIER: Identifier 'type_id' is not a member of '*'"/>
+	</waiver>
+	<waiver name="EXTEND_CLASS" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/*" message="EXTEND_CLASS: Extending non existing class 'svt_axi_master_base_reset_sequence'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier 'body' is not a member of 'super'"/>
+	</waiver>
+	<waiver name="_NON_EXISTING_TYPE" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="_NON_EXISTING_TYPE: Non existing type 'svt_axi_transaction'"/>
+	</waiver>
+	<waiver name="_UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/" message="_UNDECLARED_IDENTIFIER: Identifier 'reset_mp' is not a member of 'p_sequencer' (type 'axi_virtual_sequencer' is undeclared)"/>
+	</waiver>
+	<waiver name="_UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="_UNDECLARED_IDENTIFIER: Identifier 'reset_mp' is not a member of 'p_sequencer' (type 'axi_virtual_sequencer' is undeclared)"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/*" message="UNDECLARED_IDENTIFIER: Identifier 'set_is_enabled' is not a member of 'signal_valid_rdata_when_rvalid_high_check' (type 'svt_amba_err_check_stats' is undeclared)"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier 'read_data_interleave_size' is not a member of 'slave_cfg'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/*" message="UNDECLARED_IDENTIFIER: Identifier 'read_data_interleave_size' is not a member of 'svt_axi_port_configuration'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/common_verif/*" message="UNDECLARED_IDENTIFIER: Identifier 'read_data_interleave_size' is not a member of 'slave_cfg'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier 'set_is_enabled' is not a member of 'signal_valid_rdata_when_rvalid_high_check' (type 'svt_amba_err_check_stats' is undeclared)"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier 'master_cfg' is not a member of 'axi_hbw_cfg'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier 'slave_cfg' is not a member of 'axi_hbw_cfg'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier '__m_uvm_field_automation' is not a member of 'super'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier 'set_name' is not a member of 'tmp'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/*" message="UNDECLARED_IDENTIFIER: Identifier '__m_uvm_status_container' is not declared"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="$ENV_NAME/psoc_verif/h15b_psoc_verif/sbb_wrap_verif/sv/sbb_wrap_verif_pkg.sv" message="UNDECLARED_IDENTIFIER: Identifier 'getenv' is not a member of 'svt_uvm_pkg'"/>
+	</waiver>
+
+</waivers>

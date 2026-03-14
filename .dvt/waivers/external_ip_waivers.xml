@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+    <waiver name="I2C_WAIVER" severity="DISABLED">
+		<description>i2c waiver to all since it's snps drop
+		</description>
+		<match path="*/psoc_rtl/i2c/rtl/*" message="*"/>
+	</waiver>
+    <waiver name="SPI_WAIVER" severity="DISABLED">
+		<description>waive every from snps drop
+		</description>
+		<match path="*/psoc_rtl/spi_m/rtl/*" message="*"/>
+	</waiver>
+    <waiver name="SPI_S_WAIVER" severity="DISABLED">
+		<description>waive everything from SNPS drop...
+		</description>
+		<match path="*/psoc_rtl/spi_s/rtl/*" message="*"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/qspi/rtl/*" message="*"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/spi/rtl/*" message="*"/>
+	</waiver>
+	<waiver name="DWC_WAIVER" severity="DISABLED">
+		<match path="*/dwc_io_*" message="*"/>
+	</waiver>
+</waivers>

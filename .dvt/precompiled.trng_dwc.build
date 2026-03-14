@@ -1,0 +1,8 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/trng/dvt
++dvt_init+xcelium.xrun -work trng_lib
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/trng_waivers.xml
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.trng_dwc
+-sv
+-f $ip/filelists/trng_lib.rtl.f
+
+-top DWC_trng_core

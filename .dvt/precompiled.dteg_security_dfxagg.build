@@ -1,0 +1,10 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/dfxagg/dvt
+
++dvt_init+xcelium.xrun -work dfxagg_lib
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/dfxagg_waivers.xml
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.dteg_security_dfxagg
+-sv
+-f $ip/filelists/JGS.rtl_opts.f
+-f $ip/filelists/JGS.rtl.f
+
+-top dfxagg_top

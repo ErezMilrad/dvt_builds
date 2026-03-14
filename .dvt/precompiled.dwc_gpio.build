@@ -1,0 +1,8 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/dwc_gpio/dvt
++dvt_init+xcelium.xrun -work dwc_gpio_lib
+-sv
+/p/ipx/ipcache2/jgs/dwc_io_ts3p_1p2v_gpio/JGSCEV1RTL1FC1V2_19M_8Y2Yy2R_SHDMIM/3/jgs.dwc_io_ts3p_1p2v_gpio/behavior/dwc_io_ts3p_1p2v_gpio.v
+/p/ipx/ipcache2/jgs/dwc_io_ts3p_1p2v_basekit_SIP1/JGSCEV1RTL1FC1V1/3/jgs.dwc_io_ts3p_1p2v_basekit_SIP1/behavior/dwc_io_ts3p_1p2v_basekit.v
+/p/ipx/ipcache2/jgs/dwc_io_ts3p_1p8v_gpio/JGSIOEV1RTL1FC1V3_19M_6y/3/jgs.dwc_io_ts3p_1p8v_gpio/behavior/dwc_io_ts3p_1p8v_gpio.v
+/p/ipx/ipcache2/jgs/dwc_io_ts3p_1p8v_basekit/JGSIOEV1RTL1FC1V7_19M_6y/3/jgs.dwc_io_ts3p_1p8v_basekit/behavior/dwc_io_ts3p_1p8v_basekit.v
+/p/ipx/ipcache2/jgs/dwc_io_ts3p_1p8v_i3c/JGSA0EV1RTL1IFC1V1/3/jgs.dwc_io_ts3p_1p8v_i3c/dwc_io_ts3p_1p8v_i3c_fdk_1.05a/behavior/dwc_io_ts3p_1p8v_i3c.v

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+	<waiver name="waive_everything" severity="DISABLED">
+		<description>temp waiver for missing files until we figure it out
+		</description>
+		<match path="*" message="*"/>
+	</waiver>
+</waivers>

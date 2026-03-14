@@ -1,0 +1,7 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/i3c/dvt
++dvt_init+xcelium.xrun -work i3c_lib
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.i3c_dwc
+-sv
+-f $ip/filelists/i3c_lib.rtl.f
+
+-top DWC_mipi_i3c

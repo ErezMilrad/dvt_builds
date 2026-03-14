@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+	<waiver name="QSPI_WAIVER" severity="DISABLED">
+		<description>waive all for QSPI as it drop from snps
+		</description>
+		<match path="*/psoc_rtl/qspi/rtl/*" message="*"/>
+	</waiver>
+	<waiver name="SPI_WAIVER_2" severity="DISABLED">
+		<description>waive every thing from SNPS drop...
+		</description>
+		<match path="*/psoc_rtl/spi/rtl/*" message="*"/>
+	</waiver>
+    <waiver name="common_rtl_waivers" severity="DISABLED">
+		<description>waive all common_rtl as it is all over the code
+		</description>
+		<match path="*/common_rtl/*" message="*"/>
+	</waiver>	
+	<waiver name="WAIVE CMSDK_APB_UART" severity="DISABLED">
+		<description>waiving all for 3rd party file
+		</description>
+		<match path="*/psoc_rtl/cmsdk_apb_uart/rtl/*" message="*"/>
+	</waiver>
+	<waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+		<match path="*/psoc_rtl/*/mem_wrap/rtl/*" message="PARAMETER_NEVER_USED: Parameter '*' is never used"/>
+	</waiver>
+	<waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    	<match path="*/psoc_rtl/generic_ic/rtl/*" message="PARAMETER_NEVER_USED: Parameter '*' is never used"/>
+  	</waiver>
+	<waiver name="WAIVE DPHY FSM" severity="DISABLED">
+		<match path="*/psoc_rtl/dphy_fsm/rtl/dphy_fsm.v" message="*"/>
+	</waiver>
+	<waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+		<match path="*" message="*uncon*"/>
+	</waiver>
+	<waiver name="waive all in cfg_reg files" severity="DISABLED">
+		<match path="*cfg_reg*.v" message="*"/>
+	</waiver>
+	<waiver name="SKIPPED_INSTANCE" severity="DISABLED">
+		<match path="*" message="SKIPPED_INSTANCE:*"/>
+	</waiver>
+	<waiver name="Waive_evreything_in_subIP" severity="DISABLED">
+		<match path="*/psoc_rtl/subIP/*" message="*"/>
+	</waiver>
+	<waiver name="UNELABORATED_MODULE: Module '*ctech_lib*' is not elaborated" severity="DISABLED">
+		<match path="*" message="UNELABORATED_MODULE: Module '*ctech_lib*' is not elaborated"/>
+	</waiver>
+	<waiver name="UNELABORATED_MODULE" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/icc_max_residency_counter.v" message="UNELABORATED_MODULE: Module 'psoc_io_rtl_lib.icc_max_residency_counter' is not elaborated"/>
+	</waiver>
+	<waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+		<match path="*/psoc_rtl/sbb/rtl/sbbv5_wrap.sv" message="SIGNAL_NEVER_READ: Signal '*_dummy' is never read (connected to sub-instance output port)"/>
+	</waiver>
+	<waiver name="MAX_COUNT_LOOP_GENERATE" severity="DISABLED">
+		<match path="/nfs/site/disks/xeg.jgsfe_compute.0001/ymishli/jgs_psoc/psoc_rtl/sbb/rtl/sbb_fuse_shim.sv" message="MAX_COUNT_LOOP_GENERATE: Max count '200' exceeded for loop generate 'fuse_data_genblk' (increase limit with directive +dvt_elaboration_loop_block_cutoff)"/>
+	</waiver>
+	<waiver name="INTERNAL_GENERATED_RESET" severity="DISABLED">
+		<match path="*psoc_rtl/io/rtl/giolgc_gf_top.sv" message="INTERNAL_GENERATED_RESET: Reset signal 'reset_sync' is not an input port"/>
+	</waiver>
+</waivers>

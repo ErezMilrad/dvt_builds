@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+
+<!-- ============================================================================= -->
+<!-- SYNOPSYS DESIGNWARE VIP WAIVERS                                              -->
+<!-- ============================================================================= -->
+
+	<waiver name="EXTEND_CLASS" severity="DISABLED">
+	<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="EXTEND_CLASS: Extending non existing class '*'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="UNDECLARED_IDENTIFIER: Identifier '*' is not declared"/>
+	</waiver>
+	<waiver name="NON_EXISTING_TYPE" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="NON_EXISTING_TYPE: Non existing type '*'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="UNDECLARED_IDENTIFIER: Identifier '*' is not a member of '*' (type '*' is undeclared)"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="UNDECLARED_IDENTIFIER: Identifier '*' is not a member of '*'"/>
+	</waiver>
+	<waiver name="EXTERN_TASK_UNDECLARED" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="EXTERN_TASK_UNDECLARED: Outer class task '*' was not declared extern inside class '*'"/>
+	</waiver>
+	<waiver name="MISSING_FUNCTION_IMPL" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="MISSING_FUNCTION_IMPLEMENTATION: '*' extern function is not implemented"/>
+	</waiver>
+	<waiver name="MISSING_TASK_IMPL" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="MISSING_TASK_IMPLEMENTATION: '*' extern task is not implemented"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="*Macro name: * is not defined"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012_WREAL" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="*Redefinition of macro name: *"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="*NON_STANDARD: Empty assignment pattern '{} not allowed"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="*NON_STANDARD: Function prototype return data type or void missing"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="*UNDECLARED_CHECKER: Checker '*' is not declared"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="ILLEGAL_NONCONSTANT_EXPRESSION: Expecting constant expression, but found '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="ILLEGAL_ASSIGNMENT: Illegal assignment to type '*' from type '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="METHOD_CALL_ARGUMENTS: Method call '*' is missing argument value to input '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="ILLEGAL_ASSIGNMENT: Illegal assignment to type '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/golden/vip/svt/*" message="*"/>
+	</waiver>
+
+<!-- ============================================================================= -->
+<!-- PROJECT-SPECIFIC VIP WAIVERS                                                 -->
+<!-- ============================================================================= -->
+
+	<waiver name="EXTEND_CLASS" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="EXTEND_CLASS: Extending non existing class '*'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="UNDECLARED_IDENTIFIER: Identifier '*' is not declared"/>
+	</waiver>
+	<waiver name="NON_EXISTING_TYPE" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="NON_EXISTING_TYPE: Non existing type '*'"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="UNDECLARED_IDENTIFIER: Identifier '*' is not a member of '*' (type '*' is undeclared)"/>
+	</waiver>
+	<waiver name="UNDECLARED_IDENTIFIER" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="UNDECLARED_IDENTIFIER: Identifier '*' is not a member of '*'"/>
+	</waiver>
+	<waiver name="EXTERN_TASK_UNDECLARED" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="EXTERN_TASK_UNDECLARED: Outer class task '*' was not declared extern inside class '*'"/>
+	</waiver>
+	<waiver name="MISSING_FUNCTION_IMPL" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="MISSING_FUNCTION_IMPLEMENTATION: '*' extern function is not implemented"/>
+	</waiver>
+	<waiver name="MISSING_TASK_IMPL" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="MISSING_TASK_IMPLEMENTATION: '*' extern task is not implemented"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="*Macro name: * is not defined"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012_WREAL" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="*Redefinition of macro name: *"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="*NON_STANDARD: Empty assignment pattern '{} not allowed"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="*NON_STANDARD: Function prototype return data type or void missing"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="*UNDECLARED_CHECKER: Checker '*' is not declared"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+	<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="ILLEGAL_NONCONSTANT_EXPRESSION: Expecting constant expression, but found '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="ILLEGAL_ASSIGNMENT: Illegal assignment to type '*' from type '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="METHOD_CALL_ARGUMENTS: Method call '*' is missing argument value to input '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="ILLEGAL_ASSIGNMENT: Illegal assignment to type '*'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="${ENV_NAME}/${PROJECT}_fc_verif/vip/*" message="*"/>
+	</waiver>
+</waivers>

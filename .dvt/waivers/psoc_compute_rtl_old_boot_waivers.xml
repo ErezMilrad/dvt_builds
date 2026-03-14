@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/cold_rst_config.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.cold_rst_config' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/hvm_bypass_config.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.hvm_bypass_config' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_cdc_and_smp.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.new_boot_man_cdc_and_smp' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_edge_detector.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.new_boot_man_edge_detector' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_old_fsm.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.new_boot_man_old_fsm' is not elaborated"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_efuse_rd_cfg_count' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_en_config_addr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_en_config_data' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_en_config_polling' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_en_config_polling_data' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_en_config_polling_mask' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_en_config_count' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_lock_check_addr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_lock_check_data' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_lock_check_polling' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_lock_check_polling_mask' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_pll_lock_check_count' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_cpu_start_cfg_addr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_cpu_start_cfg_data' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_cpu_start_cfg_polling' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_cpu_start_cfg_polling_data' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_cpu_start_cfg_polling_mask' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'security_cpu_start_cfg_count' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man_sec_logic.sv" message="SIGNAL_NEVER_READ: Signal 'cold_rst_cfg_count' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/security_cpu_start_config.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.security_cpu_start_config' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/security_efuse_rd_config.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.security_efuse_rd_config' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/security_efuse_wr_config.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.security_efuse_wr_config' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/security_pll_en_config.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.security_cpu_pll_config' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/security_pll_lock_check.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.security_pll_lock_check' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/dfx_agg/rtl/dfx_agg_apb2reg.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.dfx_agg_apb2reg' is not elaborated"/>
+  </waiver>
+  <waiver name="UNELABORATED_MODULE" severity="DISABLED">
+    <match path="*/psoc_rtl/dfx_agg/rtl/jgs_dfxagg_top.sv" message="UNELABORATED_MODULE: Module 'psoc_compute_rtl_lib.jgs_dfxagg_top' is not elaborated"/>
+  </waiver>
+  <waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'psoc_dump_int0' of '8-bit' type from '{ref_boot_man_ps_r, boot_main_...' of '7-bit' type"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'mng_arc_reseted' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'pll_reseted' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'ref_fabric_rst_trig' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'ref_fabric_rst_done' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'straps_msb' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'dfxagg_early_boot_done' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'dfxagg_rst_trig' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="SIGNAL_NEVER_USED: Signal 'cro_lock' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_USED: Signal 'dft_scan_rstbypen' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_USED: Signal 'dfxagg_security_policy' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_USED: Signal 'dfxagg_policy_update' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_WRITTEN" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_WRITTEN: Signal 'dfxagg_early_boot_done' is never written (connected to sub-instance input port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_WRITTEN" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_WRITTEN: Signal 'cro_lock' is never written (connected to sub-instance input port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'dfxagg_rst_trig' is never read (connected to sub-instance output port)"/>
+  </waiver>
+</waivers>

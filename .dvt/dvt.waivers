@@ -1,0 +1,12 @@
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/psoc_rtl_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/common_rtl_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/psoc_rtl_tmp_clean_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/jgs_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/archipelago_rtl_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/external_ip_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/dvt_false_alarms_waivers.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/psoc_io_tb_waiver.xml
++dvt_compile_waivers_file+${DVT_GIT}/.dvt/waivers/subip_waivers.xml
+
++dvt_semantic_checks_timeout+2000
++dvt_preprocess_translate_pragmas+pragma+synopsys+synthesis

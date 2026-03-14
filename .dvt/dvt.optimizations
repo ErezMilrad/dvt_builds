@@ -1,0 +1,12 @@
++dvt_skip_compile+/nfs/site/proj/tech1/n3p_disk1/collaterals/ctech_c4v24ww43a_hdk164_cth2409_lib/v1.0.5/c4v24ww43a_hdk164_cth2409/source/v/ctech_*
++dvt_elaboration_skip_modules+and
++dvt_elaboration_skip_modules+bufif*
++dvt_elaboration_skip_modules+or
++dvt_elaboration_skip_modules+buf
++dvt_elaboration_skip_modules+not
++dvt_elaboration_skip_modules+nmos
++dvt_elaboration_skip_modules+tran
++dvt_elaboration_skip_modules+hl_smp
++dvt_elaboration_skip_modules+cfg_reg_base
++dvt_elaboration_skip_modules+cfg_reg_tie
++dvt_elaboration_skip_modules+ctech*

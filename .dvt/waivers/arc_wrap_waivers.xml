@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+
+	<waiver name="CASE_ITEM_WIDTH_MISMATCH" severity="DISABLED">
+		<match path="*" message="CASE_ITEM_WIDTH_MISMATCH: *"/>
+	</waiver>
+	<waiver name="OUTPUT_PORT_READ" severity="DISABLED">
+		<match path="*" message="OUTPUT_PORT_READ: *"/>
+	</waiver>
+	<waiver name="FEEDTHROUGH_DETECTED" severity="DISABLED">
+		<match path="*" message="FEEDTHROUGH_DETECTED: *"/>
+	</waiver>
+	<waiver name="SIGNAL_NEVER_*" severity="DISABLED">
+		<match path="*" message="SIGNAL_NEVER_*"/>
+	</waiver>
+	<waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+		<match path="*" message="PARAMETER_NEVER_USED: *"/>
+	</waiver>
+	<waiver name="IMPLICIT_DECLARATION" severity="DISABLED">
+		<match path="*" message="IMPLICIT_DECLARATION: *"/>
+	</waiver>
+	<waiver name="INTERNAL_GENERATED_*" severity="DISABLED">
+		<match path="*" message="INTERNAL_GENERATED_CLOCK: *"/>
+	</waiver>
+	<waiver name="INTERNAL_GENERATED_RESET" severity="DISABLED">
+		<match path="*" message="INTERNAL_GENERATED_RESET: *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_*" severity="DISABLED">
+		<match path="*" message="WIDTH_MISMATCH_*"/>
+	</waiver>
+	<waiver name="UNDECLARED_MODULE" severity="DISABLED">
+		<match path="*/archipelago_rtl/arc_wrap/rtl/arc_wrap.v" message="UNDECLARED_MODULE: Module '*' is not declared"/>
+	</waiver>
+	<waiver name="UNDECLARED_MODULE" severity="DISABLED">
+		<match path="*" message="UNDECLARED_MODULE: Module 'hl_*' is not declared"/>
+	</waiver>
+	<waiver name="SIGNAL_MULTIPLE_DRIVERS" severity="DISABLED">
+		<match path="*/*_alb_*cyc_checker.v" message="SIGNAL_MULTIPLE_DRIVERS: Signal 'data_out' has multiple drivers"/>
+	</waiver>
+	<waiver name="SENSITIVITY_UNUSED" severity="DISABLED">
+		<match path="*/*_alb_*cyc_checker.v" message="SENSITIVITY_UNUSED: The process is not sensitive to 'data_in'"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="*/*_alb_mpy_pipe.v" message="SYSTEM_VERILOG_2012: Macro name: INFER_MPY_LOCAL is not defined"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="*/*_arc_trace_exported_defines.v" message="SYSTEM_VERILOG_2012: Redefinition of macro name: *_RTT_USING_AXI"/>
+	</waiver>
+	<waiver name="UNDECLARED_MODULE" severity="DISABLED">
+		<match path="*" message="UNDECLARED_MODULE: Module 'stdcell_*' is not declared"/>
+	</waiver>
+	<waiver name="ASSIGNMENT_BLOCKING" severity="DISABLED">
+		<match path="*/*_ram_core.v" message="ASSIGNMENT_BLOCKING: Blocking assignment of 'ram_core_0[addr]' in sequential logic (use non-blocking assignment)"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="*/*_pt_ram.v" message="SYSTEM_VERILOG_2012: Macro name: XCAM_MODEL is not defined"/>
+	</waiver>
+	<waiver name="ASSIGNMENT_BLOCKING" severity="DISABLED">
+		<match path="*" message="ASSIGNMENT_BLOCKING: *"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="*" message="SYSTEM_VERILOG_2012: Macro name: XCAM_MODEL is not defined"/>
+	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="*" message="SYSTEM_VERILOG_2012: Redefinition of *"/>
+	</waiver>
+</waivers>

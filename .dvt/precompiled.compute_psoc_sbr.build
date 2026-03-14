@@ -1,0 +1,6 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/psoc_cgpsbrf/dvt
++dvt_init+xcelium.xrun -work psoc_cpmsbrf_lib
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/gpsbrf/workspace/sideband_network
+-sv
+-f $ip/filelists/sbr.rtl.f
+-top psoc_gpsbr_sbr_generic

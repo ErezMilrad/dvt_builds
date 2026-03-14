@@ -1,0 +1,11 @@
+<ruleset version="2" name="Custom Ruleset">
+    <category name="10. Operators">
+        <rule id="R.1375"/>
+    </category>
+    <category name="34. RTL Synthesis">
+        <rule id="R.1096"/>
+        <rule id="R.1095"/>
+        <rule id="R.1094"/>
+        <rule id="R.1093"/>
+    </category>
+</ruleset>

@@ -1,0 +1,14 @@
+-f ${DVT_GIT}/.dvt/dvt.precompiled
++dvt_init+xcelium.xrun -work jgsio_psoc_rtl_lib
+-sv
++dvt_env+ip=${WORKAREA}
+-f ${DVT_GIT}/.dvt/dvt.optimizations
+-f ${DVT_GIT}/.dvt/dvt.waivers
+
+-f ${DVT_GIT}/filelists/bom/fc.rtl.f
+-f ${DVT_GIT}/filelists/bom/common.rtl.f
+-f ${DVT_GIT}/filelists/bom/psoc_common.rtl.f
+-f ${DVT_GIT}/filelists/bom/archipelago.rtl.f
+-f ${DVT_GIT}/filelists/bom/psoc_io.rtl.f
+
+-top jgsio_psoc_top

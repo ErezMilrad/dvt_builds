@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+	<waiver name="BUILD_CONFIG" severity="DISABLED">
+		<match path="*/psoc_rtl/subIP/jgs.sbb_sbbv5_3/filelists/sbbv5_lib.rtl.f" message="BUILD_CONFIG: This directive has no effect because no +libext was specified"/>
+	</waiver>
+	<waiver name="Waive_evreything_in_subIP" severity="DISABLED">
+		<match path="*/psoc_rtl/subIP/*" message="*"/>
+	</waiver>
+</waivers>

@@ -1,0 +1,9 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/fuse_puller/dvt
++dvt_init+xcelium.xrun -work fuse_puller_lib
++define+INTEL_NO_PWR_PINS
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.fuse_puller
+-sv
+-f $ip/filelists/fuse_puller.rtl_opts.f
+-f ${WORKAREA}/src/rtl/psoc_rtl/efuse/misc/fuse_puller.rtl.f
+
+-top fuse_puller

@@ -1,0 +1,7 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/spi/dvt
++dvt_init+xcelium.xrun -work spi_lib
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.spi_dwc
+-sv
+-f $ip/filelists/spi_lib.rtl.f
+
+-top DW_apb_ssi

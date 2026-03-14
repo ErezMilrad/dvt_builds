@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">	
+	<waiver name="Waive_evreything" severity="DISABLED">
+		<match path="*" message="*"/>
+	</waiver>
+</waivers>

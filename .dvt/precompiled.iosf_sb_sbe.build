@@ -1,0 +1,8 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/sbep/dvt
++dvt_init+xcelium.xrun -work sbep_lib
++define+INTEL_NO_PWR_PINS
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.iosf_sb_sbe
+-sv
+-f $ip/filelists/rtl.f
+
+-top sbendpoint

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/common_rtl/cdl/rtl/hl_pipe.v" message="WIDTH_MISMATCH_TRUNCATION:*"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/common_rtl/shared/etr_wrap/rtl/axi_split_etr_wrap.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/common_rtl/shared/generic_ic/rtl/ic_conv_axi2axi.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_ic_top_wrap.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_axi_split_top_wrap.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_bootrom.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to 'r_req_addr' of '2-bit' type from 'r_req_addr' of '12-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to '*_addr' of *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/parc/rtl/parc_if.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+    <waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_scratchpad_sram.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/parc/rtl/psoc_punit.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/cs_psoc_trace.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_bootrom.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to 'r_req_addr' of '2-bit' type from 'r_req_addr' of '13-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_spi_dma.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to 'r_req_addr' of '2-bit' type from 'r_req_addr_final' of '13-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_spi_dma.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to 'w_wr_addr' of '2-bit' type from 'w_wr_addr_final' of '13-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'cbu_hbw_wr_err_mem_r_exe_data' of '57-bit' type from 'r_exe_data' of '1-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to 'w_wr_data' of '1-bit' type from 'cbu_hbw_rd_err_mem_w_wr_data' of '57-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="WIDTH_MISMATCH_TRUNCATION: Assignment to 'w_wr_data' of '1-bit' type from 'cbu_hbw_wr_err_mem_w_wr_data' of '57-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'cbu_hbw_rd_err_mem_r_exe_data' of '57-bit' type from 'r_exe_data' of '1-bit' type"/>
+	</waiver>
+	<waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'pscl_mem_copy_ram_r_exe_data' of '185-bit' type from 'r_exe_data' of '1-bit' type"/>
+	</waiver>
+	<waiver name="UNRESOLVED_PARAMETER_VALUE" severity="DISABLED">
+		<description>UNRESOLVED_PARAMETER_VALUE: Cannot determine default value of parameter '*' from expression: calc_max({*})
+		</description>
+		<match path="*" message="UNRESOLVED_PARAMETER_VALUE: Cannot determine default value of parameter '*' from expression: calc_max({*})"/>
+	</waiver>
+	<waiver name="UNRESOLVED_PARAMETER_VALUE" severity="DISABLED">
+		<description>UNRESOLVED_PARAMETER_VALUE: Cannot determine default value of parameter '*' from expression: $clog2(MAX_DPT)
+		</description>
+		<match path="*" message="UNRESOLVED_PARAMETER_VALUE: Cannot determine default value of parameter '*' from expression: $clog2(MAX_DPT)"/>
+	</waiver>
+</waivers>

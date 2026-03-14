@@ -1,0 +1,8 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/fpc_ser/dvt
++dvt_init+xcelium.xrun -work fpc_ser_lib
++define+INTEL_NO_PWR_PINS
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.fpc_ser
+-sv
+-f $ip/filelists/fpc_ser_jgs.rtl.f
+-f $ip/filelists/fpc_ser_jgs.rtl_opts.f
+-top fpc_ser_jgs

@@ -1,0 +1,11 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/sbbv5/dvt
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/sbbv5_waivers.xml
++dvt_init+xcelium.xrun -work sbbv5_lib
++define+INTEL_NO_PWR_PINS
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.sbb_sbbv5
+-sv
+-defparam sbbv5.USE_AXI4_DMA=1
+$ip/src/rtl/sbbv5/sbb_cfg_axi_wrapper.sv
+-f $ip/filelists/sbbv5_lib.rtl.f
+
+-top sbbv5

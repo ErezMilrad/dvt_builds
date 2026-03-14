@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers version="1">
+	<waiver name="SNPS_VIP_WAIVER" severity="DISABLED">
+		<match path="/nfs/site/disks/jgs_daflows_01/designware/*" message="*"/>
+	</waiver>
+    <waiver name="WIDTH_MISMATCH" severity="DISABLED">
+		<match path="*/common_verif/sv/hl_axi/hl_axi_vip_functions.sv" message="WIDTH_MISMATCH_*"/>
+	</waiver>
+</waivers>

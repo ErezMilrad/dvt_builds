@@ -1,0 +1,8 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/cro_sip/dvt
+
++dvt_init+xcelium.xrun -work cro_sip_lib
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.cro_sip
+-sv
+-f $ip/filelists/rtl_opts.f
+-f $ip/filelists/rtl.f
+-top srvrisclk30_dig_cro_dig

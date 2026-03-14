@@ -1,0 +1,6 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/cro_hip/dvt
++dvt_init+xcelium.xrun -work cro_hip_lib
++dvt_env+ip=${WORKAREA}/src/rtl/psoc_rtl/subIP/jgs.cro_hip/rtl
+-sv
+-f $ip/filelists/rtl.f
+-top xnecrolv

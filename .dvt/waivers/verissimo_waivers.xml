@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<waivers version="7">
+    <waiver apply-on="matched" name="waiver_1">
+        <status>WARNING</status>
+        <description>Demote all errors in SVTB rule 11.2.1
+          (single character loop iterator)
+          to warning severity</description>
+        <check>SVTB.11.2.1</check>
+    </waiver>
+    <waiver apply-on="matched" name="waiver_2">
+        <status>DISABLE</status>
+        <description>Disable UVM rule 2.8.1 failing
+          on test_lib.sv for tests
+          test_read_modify_write and test_2m_4s</description>
+        <paths regex="perl">
+            <path>/full_path_to_xbus/xbus/examples/test_lib.sv</path>
+        </paths>
+        <check>UVM.2.8.1</check>
+        <line-ranges>
+            <line-range>64:67</line-range>
+            <line-range>108:111</line-range>
+        </line-ranges>
+    </waiver>
+    <waiver apply-on="matched" name="waiver_3">
+        <status>INFO</status>
+        <description>Demote to INFO error hits
+          for 'trans_collected'
+          in rule UVM.6.2</description>
+        <check>UVM.6.2</check>
+        <message-patterns regex="perl">
+            <message-pattern>.*trans_collected.*</message-pattern>
+        </message-patterns>
+    </waiver>
+    <pre-waiver apply-on="matched" name="pre-waiver_1">
+        <description>..
+
+          Do not lint 3rd party IP in certain folder - applies to all checks</description>
+        <paths regex="simple">
+            <path>/full_path_to_project/ips/*</path>
+        </paths>
+    </pre-waiver>
+    <waiver apply-on="matched" name="R.1164 @btl\.v-519">
+        <status>DISABLE</status>
+        <description>Check R.1164 in file btl\.v at line 519 is DISABLED</description>
+        <paths regex="perl">
+            <path>/nfs/site/disks/jgs_rtl_01/ymishli/wa/jgs_psoc/psoc_rtl/btl/rtl/btl\.v</path>
+        </paths>
+        <check>R.1164</check>
+        <line-range>519</line-range>
+        <message-patterns regex="perl">
+            <message-pattern>\QSize 1 of array 'btl.btl_selected_spi_data' has range 0 : 9, but index 'btl_gen_cntr_r' can have 16 values!\E\R\QHierarchy Paths: h15a_psoc_top.f.h15a_psoc_cls.f.h15a_psoc_macro.f.psoc_logic.boot_seq.btl_top.btl\E</message-pattern>
+        </message-patterns>
+    </waiver>
+    <waiver apply-on="matched" name="R.1164 @btl\.v-520">
+        <status>DISABLE</status>
+        <description>Check R.1164 in file btl\.v at line 520 is DISABLED</description>
+        <paths regex="perl">
+            <path>/nfs/site/disks/jgs_rtl_01/ymishli/wa/jgs_psoc/psoc_rtl/btl/rtl/btl\.v</path>
+        </paths>
+        <check>R.1164</check>
+        <line-range>520</line-range>
+        <message-patterns regex="perl">
+            <message-pattern>\QSize 1 of array 'btl.btl_selected_spi_addr' has range 0 : 9, but index 'btl_gen_cntr_r' can have 16 values!\E\R\QHierarchy Paths: h15a_psoc_top.f.h15a_psoc_cls.f.h15a_psoc_macro.f.psoc_logic.boot_seq.btl_top.btl\E</message-pattern>
+        </message-patterns>
+    </waiver>
+</waivers>

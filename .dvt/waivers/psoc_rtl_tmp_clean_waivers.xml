@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
+<waivers>
+  <waiver name="SIGNAL_NEVER_WRITTEN" severity="DISABLED">
+    <match path="*/psoc_rtl/avs_bus/rtl/avs_bus_ctrl.v" message="SIGNAL_NEVER_WRITTEN: Signal 'rst_n' is never written (connected to sub-instance input port)"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/avs_bus/rtl/avs_top.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/avs_bus/rtl/avs_top.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_DATA_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/boot_man.v" message="PARAMETER_NEVER_USED: Parameter 'FSM_RST_IN_PROG_DEASSRET' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/boot_man.v" message="SIGNAL_NEVER_READ: Signal 'fw_rst_n' is never read"/>
+  </waiver>
+  <waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/boot_man.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'ref_cfg_mem_repair_sts_done_wdata' of '5-bit' type from 'ref_mem_repair_done' of '3-bit' type"/>
+  </waiver>
+  <waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/boot_man.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'ref_cfg_mem_repair_sts_pass_wdata' of '5-bit' type from 'ref_mem_repair_pass' of '3-bit' type"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/grad_rst.v" message="PARAMETER_NEVER_USED: Parameter 'UNIT_NUM_M1' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'ref_efuse_secure_boot' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'spi_qspi_select_sar' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'ref_sris_mode' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'ref_sar_ssc_en' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'ref_sar_srns' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'ref_efuse_pcie_limit_gen1' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_USED: Signal 'pscd_die_recovery_in_gpio' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'boot_seq_pready' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'boot_seq_pslverr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'boot_seq_prdata' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'cfg_btl_pslverr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'boot_seq_apb_cntr_r' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'pscd_efuse_pcie_current' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'pscd_i2c_s_base_addr_aligned' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'pscd_dummy_writes_base_addr_aligned' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/boot_seq.v" message="SIGNAL_NEVER_READ: Signal 'apb_src' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_seq/rtl/btl_rom_auto_ctrl.v" message="PARAMETER_NEVER_USED: Parameter 'L2_MAX_CMD_CNT' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/btl/rtl/btl.v" message="PARAMETER_NEVER_USED: Parameter 'SPI_RX_FIFO_MAX_FILL' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/btl/rtl/btl.v" message="PARAMETER_NEVER_USED: Parameter 'AXI_ERR' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/btl/rtl/btl.v" message="PARAMETER_NEVER_USED: Parameter 'TIMEOUT_ERR' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/cmsdk_apb_watchdog/rtl/cmsdk_apb_watchdog_top.v" message="SIGNAL_NEVER_USED: Signal 'PSLVERR_MON' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/cmsdk_iop_gpio/rtl/cmsdk_iop_gpio.v" message="SIGNAL_NEVER_USED: Signal 'test' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_reserved' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_module_id' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_efuse_override' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_dump_sel_lsb' is never read"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_reset_iso_ctrl.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_reset_iso_ctrl.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_DATA_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/h15b_psoc_reset_iso_ctrl.v" message="SIGNAL_NEVER_USED: Signal 'async_die_id' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'DIE_KIND' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_DATA_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'HBW_RUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'HBW_BUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_RUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_BUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'AXI_DRAIN_LBW_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'H6_AXUSER_FOR_SMI' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'AXUSER_IS_SHARED_CONST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_SMB_ALERTS' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_OF_GPIO_FUNC_N_FRST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_OF_GPIO_FUNC_N_RST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_GPIOS' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15b/rtl/jgsio_psoc_top.v" message="PARAMETER_NEVER_USED: Parameter 'DIE_KIND' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/io/rtl/jgsio_gpio.v" message="SIGNAL_NEVER_READ: Signal 'io_gpio_pcbrte_3_sig' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/io/rtl/jgsio_gpio.v" message="SIGNAL_NEVER_READ: Signal 'io_gpio_pcbrte_4_sig' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/io/rtl/jgsio_gpio.v" message="SIGNAL_NEVER_READ: Signal 'io_gpio_pcbrte_5_sig' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/io/rtl/jgsio_gpio.v" message="SIGNAL_NEVER_READ: Signal 'io_gpio_pcbrte_18_sig' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/io/rtl/jgsio_gpio.v" message="SIGNAL_NEVER_READ: Signal 'io_gpio_pcbrte_19_sig' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/io/rtl/io_mux.v" message="PARAMETER_NEVER_USED: Parameter 'SRC_NUM_LOG2' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/mem_copy/rtl/mem_copy_core.v" message="PARAMETER_NEVER_USED: Parameter 'HL_AXI_LAST_WDT' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/mem_copy/rtl/mem_copy.v" message="PARAMETER_NEVER_USED: Parameter 'HL_RD_OS_VS_FIFO_DEPTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/mem_copy/rtl/mem_copy.v" message="PARAMETER_NEVER_USED: Parameter 'HL_MEM_COPY_FIFO_DEPTH_L2' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_DATA_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_arc_wrap/rtl/psoc_arc_wrap.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="PARAMETER_NEVER_USED: Parameter 'PROJ_H15A' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc_boot_wrap/rtl/psoc_boot_wrap.v" message="PARAMETER_NEVER_USED: Parameter 'ARC_NUM_L2' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/apb_to_i2c.v" message="SIGNAL_NEVER_READ: Signal 'unused_apb_w' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/gpio_err_ctrl.v" message="SIGNAL_NEVER_READ: Signal 'hist_mode' is never read"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_axi_cfg_term.v" message="PARAMETER_NEVER_USED: Parameter 'AXI_BURST_TYPE_RSRVD' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'PSOC_ARC_NUM' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_SCRATHPAD_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'HBW_RUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'HBW_BUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'AXI_DRAIN_LBW_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'H6_AXUSER_FOR_SMI' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_USED: Signal 'psc_ref_clk_rlx' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_USED: Signal 'psc_ref_rst_n_rlx' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_btl_rom2ic_puser' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'ref_intr_reset_occured' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_qspi_spi_reset_after_boot_seq' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'psc_50mhz_i2c_m1_puser_prot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'psc_50mhz_i2c_s_puser_prot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'scratchpad_reg' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'bid_stm_dummy' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'rid_stm_dummy' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'psc_50mhz_d2d_spi_lbw_axi_slv_awprot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'psc_50mhz_d2d_spi_lbw_axi_slv_arprot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_dft_apb_puser_prot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_cfg_btl_rom_dummy_addr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'dummy_pscd_btm_mstr_pslverr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_psoc_ic_hbw_64_addr_wdata' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_psoc_ic_mem_32_addr_wdata' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_fw_mailbox_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_sw_mailbox_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_hw_mailbox_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_ac_cfg_user' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_adc_intr_index' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_adc_cfg_data_64' is never read"/>
+  </waiver>
+  <waiver name="WIDTH_MISMATCH_PADDING" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="WIDTH_MISMATCH_PADDING: Assignment to 'pscl_mem_copy_ram_r_exe_addr' of '7-bit' type from 'r_exe_addr' of '2-bit' type"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'async_psoc2parc_timeout_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_arc_eng_sts_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_arc_hw_fifo_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_mailbox_wrap.v" message="SIGNAL_NEVER_READ: Signal 'pscd_hw_mailbox_axi_in_ruser' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_mailbox_wrap.v" message="SIGNAL_NEVER_READ: Signal 'OK_unused_B_hw_mailbox1' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_WRITTEN" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_mailbox_wrap.v" message="SIGNAL_NEVER_WRITTEN: Signal 'pscd_sw_mailbox_intr_write_to_en_spi' is never written"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_WRITTEN" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_mailbox_wrap.v" message="SIGNAL_NEVER_WRITTEN: Signal 'pscd_sw_mailbox_intr_write_to_pi_spi' is never written"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_scratchpad_sram.v" message="SIGNAL_NEVER_USED: Signal 'puser_gen_sram' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/svid/rtl/svid_top.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/svid/rtl/svid_top.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_DATA_WIDTH' is never used"/>
+  </waiver>
+    <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_msh_cls_idd_0_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_msh_cls_idd_1_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_msh_cls_hbm_0_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_msh_cls_hbm_1_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_hbm_cls_mid_0_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_hbm_cls_mid_1_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_hbm_cls_edge_0_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_hbm_cls_edge_1_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_hbm_cls_dma_0_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_hbm_cls_dma_1_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g0_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g1_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g2_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g3_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g4_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g5_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g6_pll_dump' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_dump.v" message="SIGNAL_NEVER_USED: Signal 'async_g7_pll_dump' is never used"/>
+  </waiver>
+    <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_reserved' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_module_id' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_efuse_override' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_boot_strap.v" message="SIGNAL_NEVER_READ: Signal 'ref_sar_dump_sel_lsb' is never read"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_reset_iso_ctrl.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/h15a_psoc_reset_iso_ctrl.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_APB_DATA_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_parc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'DIE_KIND' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_cls.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_OF_GPIO_FUNC_N_FRST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_cls.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_DFT_GPIOS' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'DIE_KIND' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'HBW_RUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'HBW_BUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_RUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'LBW_BUSER_PSOC' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'AXI_DRAIN_LBW_ID_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'H6_AXUSER_FOR_SMI' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'AXUSER_IS_SHARED_CONST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_SMB_ALERTS' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_OF_GPIO_FUNC_N_FRST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_OF_GPIO_FUNC_N_RST' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_GPIOS' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_macro.v" message="PARAMETER_NEVER_USED: Parameter 'NUM_DFT_GPIOS' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/h15a/rtl/jgsc_psoc_top.v" message="PARAMETER_NEVER_USED: Parameter 'DIE_KIND' is never used"/>
+  </waiver>
+	<waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+		<match path="*/psoc_rtl/boot_man/rtl/boot_man.v" message="SIGNAL_NEVER_USED: Signal 'ref_sar_a0_debug' is never used"/>
+	</waiver>
+	<waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_reset_iso_ctrl.sv" message="SIGNAL_NEVER_USED: Signal 'async_die_id' is never used"/>
+	</waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_FW_SRAM_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_BOOTROM_ADDR_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="PARAMETER_NEVER_USED: Parameter 'ARC_MSTR_DATA_WIDTH' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_cfg_pll_x_crd' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_cfg_pll_y_crd' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_eng2dup_push_lbw_axi_slv_wuser_prot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_arc_eng_sts_sum_sum_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscl_arc_other_intr_sum_intr' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'pscd_noc2parc_dbg_slv_puser_prot' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/parc/rtl/parc_logic.v" message="SIGNAL_NEVER_READ: Signal 'OK_not_used_dummy_int_sync' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="PARAMETER_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_bootrom_wrap.v" message="PARAMETER_NEVER_USED: Parameter 'MEM_ADDR_WDT' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_bootrom_wrap.v" message="SIGNAL_NEVER_READ: Signal 'pscl_dec2rom_aruser' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_bootrom.v" message="SIGNAL_NEVER_READ: Signal 'OK_not_used' is never read"/>
+  </waiver>
+	<waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+		<match path="*/psoc_rtl/boot_seq/rtl/btl_rom_auto_ctrl.v" message="SIGNAL_NEVER_READ: Signal 'cfg_btl_rom_ac_ip_sai_val' is never read (connected to sub-instance output port)"/>
+	</waiver>
+	<waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+		<match path="*/psoc_rtl/boot_seq/rtl/btl_rom_auto_ctrl.v" message="SIGNAL_NEVER_READ: Signal 'cfg_btl_rom_ac_lbw_sai_val' is never read (connected to sub-instance output port)"/>
+	</waiver>
+	<waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+		<match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'tsvalue' is never read (connected to sub-instance output port)"/>
+	</waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man.sv" message="SIGNAL_NEVER_READ: Signal 'ref_efuse_cpu_pll_ovrd' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/boot_man/rtl/new_boot/new_boot_man.sv" message="SIGNAL_NEVER_READ: Signal 'security_gen_cntr_inc' is never read"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_USED: Signal 'async_d2d_gpio_fw_rst_in' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'ts_sync_reg_en_val' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_READ" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_logic.v" message="SIGNAL_NEVER_READ: Signal 'async_psoc2gt_icc_max_viol' is never read (connected to sub-instance output port)"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_reset_iso_ports.sv" message="SIGNAL_NEVER_USED: Signal 'async_clk_gate_pll_hbm' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_reset_iso_ports.sv" message="SIGNAL_NEVER_USED: Signal 'async_iso_en_pll_hbm' is never used"/>
+  </waiver>
+  <waiver name="SIGNAL_NEVER_USED" severity="DISABLED">
+    <match path="*/psoc_rtl/psoc/rtl/psoc_reset_iso_ports.sv" message="SIGNAL_NEVER_USED: Signal 'async_rst_n_pll_hbm' is never used"/>
+  </waiver>
+  <waiver name="UNELABORATED_PACKAGE" severity="DISABLED">
+    <match path="*/psoc_rtl/sbb/rtl/sbb_rtl_pkg.sv" message="UNELABORATED_PACKAGE: Package 'psoc_compute_rtl_lib.sbb_rtl_pkg' is not elaborated"/>
+  </waiver>
+	<waiver name="_UNELABORATED_MODULE" severity="DISABLED">
+		<match path="*/psoc_rtl/h15b/mem_wrap/rtl/sbb_fifo_mem_pipe_2p.v" message="_UNELABORATED_MODULE: Module 'non-top-files.sbb_fifo_mem_pipe_2p' is not elaborated"/>
+	</waiver>
+</waivers>

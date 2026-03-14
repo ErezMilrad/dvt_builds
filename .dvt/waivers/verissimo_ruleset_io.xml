@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset version="2" name="Custom Ruleset">
+  <!-- <category name="6. Aggregate Data Types">
+    <rule id="R.1164" name="R.1164">
+      <property key="skipGuardedSelects" value="true" />
+    </rule>
+    <rule id="R.1198" name="R.1198">
+      <property key="skipGuardedSelects" value="true" />
+    </rule>
+  </category> -->
+  <category name="Print Design Hierarchy Rules">
+    <rule id="ExportDesignHierarchy" name="ExportDesignHierarchy">
+      <property key="dumpTo" value="file,console" />
+      <property key="dumpAbsoluteDesignPaths" value="true" />
+      designInstancePatterns 
+      <property key="designInstancePatterns" value="*_cfg_reg*" />
+      <property key="filePath" value="regs_instances_io.txt" />
+    </rule>
+  </category>
+</ruleset>
