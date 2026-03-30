@@ -426,9 +426,9 @@ $ip/src/subIP/common_rtl/cs_axi_ap/rtl/cxdapaxiapregblk_1fa.v
 +incdir+$ip/src/subIP/common_rtl/cs_axi_ap/rtl
 $ip/src/subIP/common_rtl/axi/rtl/axi_rob.v
 $ip/src/subIP/common_rtl/cdl/rtl/hl_cache_lu.v
-$ip/src/subIP/common_rtl/cs_timestamp/rtl/cxtsgen.v
-$ip/src/subIP/common_rtl/cs_timestamp/rtl/cxtsgenregblk.v
-$ip/src/subIP/common_rtl/cs_timestamp/rtl/cxtsgencntr.v
+//$ip/src/subIP/common_rtl/cs_timestamp/rtl/cxtsgen.v
+//$ip/src/subIP/common_rtl/cs_timestamp/rtl/cxtsgenregblk.v
+//$ip/src/subIP/common_rtl/cs_timestamp/rtl/cxtsgencntr.v
 $ip/src/subIP/common_rtl/cdl/rtl/hl_ctrl_parity_update.v
 $ip/src/subIP/common_rtl/cs_ctm/rtl/cxctm_constants.v
 $ip/src/subIP/common_rtl/cs_ctm/rtl/cxctm_bridge.v
@@ -725,6 +725,8 @@ $ip/src/subIP/common_rtl/shared/iosf_bridges/rtl/i2a_id_alloc.v
 $ip/src/subIP/common_rtl/shared/iosf_bridges/rtl/i2a_free_list_ff.v
 $ip/src/subIP/common_rtl/shared/iosf_bridges/rtl/i2a_bridge_cfg_reg.v
 $ip/src/subIP/common_rtl/shared/iosf_bridges/rtl/i2a_bridge_cfg_reg_fields.v
+$ip/src/subIP/common_rtl/shared/iosf_bridges/rtl/i2a_brdg_unit_cfg_reg.v
+$ip/src/subIP/common_rtl/shared/iosf_bridges/rtl/i2a_brdg_unit_cfg_reg_fields.v
 $ip/src/subIP/common_rtl/dw_wrap/rtl/dw01_dec_wrap.v
 $ip/src/subIP/common_rtl/dw_wrap/rtl/dw01_add_wrap.v
 $ip/src/subIP/common_rtl/dw_wrap/rtl/dw01_cmp2_wrap.v
