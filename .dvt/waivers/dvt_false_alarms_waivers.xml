@@ -71,4 +71,7 @@
 		</description>
 		<match path="*" message="UNRESOLVED_PARAMETER_VALUE: Cannot determine default value of parameter '*' from expression: $clog2(MAX_DPT)"/>
 	</waiver>
+	<waiver name="SYSTEM_VERILOG_2012" severity="DISABLED">
+		<match path="*/psoc/rtl/psoc_logic.v" message=P"SYSTEM_VERILOG_2012: Unexpected token '('"/>
+	</waiver>
 </waivers>
