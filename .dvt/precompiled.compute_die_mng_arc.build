@@ -1,0 +1,6 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/compute_die_mng_arc/dvt
++dvt_init+xcelium.xrun -work compute_die_mng_arc_lib
+-sv
++dvt_env+ip=${WORKAREA}
+-f ${WORKAREA}/dvt_builds/filelists/compute_die_mng_arc_postdft.rtl.f
+-top compute_psoc_mng_w_rtt_archipelago

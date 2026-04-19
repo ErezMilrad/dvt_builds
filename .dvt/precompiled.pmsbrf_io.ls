@@ -1,3 +1,3 @@
-heap_size=3072m
+heap_size=4096m
 stack_size=4m
 lang=vlog

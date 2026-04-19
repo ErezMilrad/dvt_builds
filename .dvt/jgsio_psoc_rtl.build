@@ -10,5 +10,5 @@
 -f ${DVT_GIT}/filelists/bom/psoc_common.rtl.f
 -f ${DVT_GIT}/filelists/bom/archipelago.rtl.f
 -f ${DVT_GIT}/filelists/bom/psoc_io.rtl.f
-
+// -f ${WORKAREA}/filelists/jgsio_psoc.rtl.f
 -top jgsio_psoc_top

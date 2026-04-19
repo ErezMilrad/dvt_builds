@@ -35,4 +35,8 @@
 	<waiver name="WIDTH_MISMATCH_TRUNCATION" severity="DISABLED">
 		<match path="*/subIP/jgs.trng_dwc/src/*" message="WIDTH_MISMATCH_TRUNCATION: Assignment to *"/>
 	</waiver>
+	<waiver name="ipx cache waive everything" severity="DISABLED">
+		<description>External IP from ipx cache — not project RTL, waive all issues</description>
+		<match path="/p/ipx/ipcache2/*" message="*"/>
+	</waiver>
 </waivers>

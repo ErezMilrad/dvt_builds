@@ -1,0 +1,13 @@
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/spsrdd_2048x137_cp1m4b2c_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/tprfdd_128x194_cp1m2b1c_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/rom_4096x72_dm8b4c_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/sprfdd_1024x78_cp1m2b2w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/sprfdd_1024x8_cp1m4b1w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/sprfdd_16x28_cp1m2b1w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/sprfdd_256x68_cp1m2b1w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/sprfdd_256x78_cp1m2b1w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/sprfdd_32x29_cp1m2b1w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/spsrdd_4096x39_cp1m4b4w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/spsrdd_8192x39_cp1m8b4w_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/spsrsd_16384x78_cp1m8b8cw_wib_wrapper_dft.v
+/p/ipx/ipcache2/jgs/jgscd_rams/JGSCA0EV1RTL1IFC1V9/3/jgs.jgscd_rams/jgscd_rams/fe_wrappers/sram/rtl/spsrdd_16384x39_cp1m8b8_wib_wrapper_dft.v

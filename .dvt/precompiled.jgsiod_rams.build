@@ -1,0 +1,5 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/jgsiod_rams/dvt
++dvt_init+xcelium.xrun -work jgsiod_rams_lib
+-sv
+-f ${WORKAREA}/dvt_builds/filelists/jgsiod_rams_postdft.rtl.f
+-top tprfdd_144x32_cp1m2b1_wib_wrapper_dft

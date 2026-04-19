@@ -1,0 +1,5 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/upm_n3_top/dvt
++dvt_init+xcelium.xrun -work upm_n3_top_lib
+-sv
+-f ${WORKAREA}/dvt_builds/filelists/telemetry_30upm_postdft.rtl.f
+-top dteg_upm_n3_top

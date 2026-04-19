@@ -538,4 +538,8 @@
 	<waiver name="_UNELABORATED_MODULE" severity="DISABLED">
 		<match path="*/psoc_rtl/h15b/mem_wrap/rtl/sbb_fifo_mem_pipe_2p.v" message="_UNELABORATED_MODULE: Module 'non-top-files.sbb_fifo_mem_pipe_2p' is not elaborated"/>
 	</waiver>
+	<waiver name="WIDTH_MISMATCH_TRUNCATION psoc_reset_regs_to_structs" severity="DISABLED">
+		<description>Width mismatch in pll struct assignment - RTL not to be modified</description>
+		<match path="*/psoc_rtl/psoc/rtl/psoc_reset_regs_to_structs.sv" message="*"/>
+	</waiver>
 </waivers>

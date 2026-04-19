@@ -1,0 +1,27 @@
+-f ${DVT_GIT}/.dvt/dvt.precompiled
++dvt_init+xcelium.xrun -work jgsio_psoc_postdft_lib
+-sv
++dvt_env+ip=${WORKAREA}
++dvt_env+ctech_path=${ctech_path}
+-f ${DVT_GIT}/.dvt/dvt.optimizations
+
+// Skip ctech primitives (logic-gate level, not needed for RTL analysis)
++dvt_skip_compile+${ctech_path}/ctech_*
+
+
+// Waivers — point to workspace copy (shared dvt_false_alarms_waivers.xml has an XML bug)
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/psoc_rtl_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/common_rtl_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/psoc_rtl_tmp_clean_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/jgs_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/archipelago_rtl_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/external_ip_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/dvt_false_alarms_waivers.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/psoc_io_tb_waiver.xml
++dvt_compile_waivers_file+${WORKAREA}/.dvt/waivers/subip_waivers.xml
+
++dvt_semantic_checks_timeout+2000
++dvt_preprocess_translate_pragmas+pragma+synopsys+synthesis
+
+-f ${WORKAREA}/filelists/jgsio_psoc.rtl.f
+-top jgsio_psoc_top

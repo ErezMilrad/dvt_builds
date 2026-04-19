@@ -1,0 +1,6 @@
++dvt_precompiled_db_save+${PSOC_LIBS}/io_die_pid_arc/dvt
++dvt_init+xcelium.xrun -work io_die_pid_arc_lib
+-sv
++dvt_env+ip=${WORKAREA}
+-f ${WORKAREA}/dvt_builds/filelists/io_psoc_pid_postdft.rtl.f
+-top io_psoc_pid_archipelago

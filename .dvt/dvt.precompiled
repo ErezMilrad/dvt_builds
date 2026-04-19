@@ -48,3 +48,33 @@
 
 // +dvt_init_precompiled_db_load
 // +dvt_precompiled_db_location+${PSOC_LIBS}/i2c/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/ctech/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/io_die_mng_arc/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/io_die_misc_arc/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/io_die_pid_arc/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/io_die_rst_arc/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/upm_n3_top/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/jgsiod_rams/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/compute_die_mng_arc/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/compute_die_rst_arc/dvt
+
++dvt_init_precompiled_db_load
++dvt_precompiled_db_location+${PSOC_LIBS}/jgscd_rams/dvt

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE waivers PUBLIC "-//DVT//waivers" "waivers.dtd" >
 <waivers version="1">
+	<waiver name="WIDTH_MISMATCH_TRUNCATION psoc_reset_regs_to_structs pll" severity="DISABLED">
+		<description>pll struct assignment width mismatch - RTL not to be modified</description>
+		<match path="*psoc_reset_regs_to_structs*" message="*"/>
+	</waiver>
 	<waiver name="QSPI_WAIVER" severity="DISABLED">
 		<description>waive all for QSPI as it drop from snps
 		</description>
